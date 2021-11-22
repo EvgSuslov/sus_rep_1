@@ -1,19 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep  8 18:49:59 2021
-
-@author: Fox
-"""
-
-'''
-ПСЧ
-'''
-b = 6
-
 import numpy as np
 A = 5
 C = 3
 T = 7
+b = 6
 M = 2 ** b
 
 def get_next(t):
@@ -50,5 +39,6 @@ message = input('Введите сообщение на русском язык�
 ciph = cipher(message, T)
 print(ciph)
 print(cipher(ciph, T)) # Потому что симметричный код
+
 
 
