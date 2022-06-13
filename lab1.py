@@ -20,9 +20,9 @@ for i in range(2, len_ar // 2+1): #if simple - than do anoter
     if len_ar % i == 0:
         k+=1
 if (k!=0):
-    print(str(len_ar)+' это простое число')
+    print(str(len_ar)+': is simple')
 else:
-    print(str(len_ar) + ' это не простое число'+ '\n' +'Введите иное сообщение')
+    print(str(len_ar) + 'not simple '+ '\n' +'Enter another one')
     sys.exit()                                    
                                                     
 while len_ar % min_n != 0:                       
