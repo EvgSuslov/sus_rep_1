@@ -51,3 +51,4 @@ def encode(text, key):
     return p
  
 print(encode(s,rng))
+"fffff"
